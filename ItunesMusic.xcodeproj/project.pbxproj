@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		0201273D26BAC2EB00024C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201273C26BAC2EB00024C41 /* AppDelegate.swift */; };
 		0201273F26BAC2EB00024C41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201273E26BAC2EB00024C41 /* SceneDelegate.swift */; };
-		0201274126BAC2EB00024C41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201274026BAC2EB00024C41 /* ViewController.swift */; };
+		0201274126BAC2EB00024C41 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201274026BAC2EB00024C41 /* LibraryViewController.swift */; };
 		0201274426BAC2EB00024C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201274226BAC2EB00024C41 /* Main.storyboard */; };
 		0201274626BAC2ED00024C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0201274526BAC2ED00024C41 /* Assets.xcassets */; };
 		0201274926BAC2ED00024C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201274726BAC2ED00024C41 /* LaunchScreen.storyboard */; };
+		0201275126BAC30C00024C41 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201275026BAC30C00024C41 /* TabBarViewController.swift */; };
+		0201275326BAC4C500024C41 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201275226BAC4C500024C41 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0201273926BAC2EB00024C41 /* ItunesMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0201273C26BAC2EB00024C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0201273E26BAC2EB00024C41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0201274026BAC2EB00024C41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0201274026BAC2EB00024C41 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		0201274326BAC2EB00024C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0201274526BAC2ED00024C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0201274826BAC2ED00024C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0201274A26BAC2ED00024C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201275026BAC30C00024C41 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0201275226BAC4C500024C41 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				0201273C26BAC2EB00024C41 /* AppDelegate.swift */,
 				0201273E26BAC2EB00024C41 /* SceneDelegate.swift */,
-				0201274026BAC2EB00024C41 /* ViewController.swift */,
+				0201274026BAC2EB00024C41 /* LibraryViewController.swift */,
+				0201275226BAC4C500024C41 /* SearchViewController.swift */,
+				0201275026BAC30C00024C41 /* TabBarViewController.swift */,
 				0201274226BAC2EB00024C41 /* Main.storyboard */,
 				0201274526BAC2ED00024C41 /* Assets.xcassets */,
 				0201274726BAC2ED00024C41 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0201274126BAC2EB00024C41 /* ViewController.swift in Sources */,
+				0201275326BAC4C500024C41 /* SearchViewController.swift in Sources */,
+				0201275126BAC30C00024C41 /* TabBarViewController.swift in Sources */,
+				0201274126BAC2EB00024C41 /* LibraryViewController.swift in Sources */,
 				0201273D26BAC2EB00024C41 /* AppDelegate.swift in Sources */,
 				0201273F26BAC2EB00024C41 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAY4Y2DWXX;
 				INFOPLIST_FILE = ItunesMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tengizov.ItunesMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAY4Y2DWXX;
 				INFOPLIST_FILE = ItunesMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tengizov.ItunesMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
