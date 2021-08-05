@@ -16,6 +16,7 @@
 		0201275126BAC30C00024C41 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201275026BAC30C00024C41 /* TabBarViewController.swift */; };
 		0201275326BAC4C500024C41 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201275226BAC4C500024C41 /* SearchViewController.swift */; };
 		0201275626BAD9CF00024C41 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0201275526BAD9CF00024C41 /* Alamofire */; };
+		02BC2CD326BC079700130AFC /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC2CD226BC079700130AFC /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0201274A26BAC2ED00024C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0201275026BAC30C00024C41 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0201275226BAC4C500024C41 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		02BC2CD226BC079700130AFC /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0201274026BAC2EB00024C41 /* LibraryViewController.swift */,
 				0201275226BAC4C500024C41 /* SearchViewController.swift */,
 				0201275026BAC30C00024C41 /* TabBarViewController.swift */,
+				02BC2CD226BC079700130AFC /* SearchResponse.swift */,
 				0201274226BAC2EB00024C41 /* Main.storyboard */,
 				0201274526BAC2ED00024C41 /* Assets.xcassets */,
 				0201274726BAC2ED00024C41 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 			files = (
 				0201275326BAC4C500024C41 /* SearchViewController.swift in Sources */,
 				0201275126BAC30C00024C41 /* TabBarViewController.swift in Sources */,
+				02BC2CD326BC079700130AFC /* SearchResponse.swift in Sources */,
 				0201274126BAC2EB00024C41 /* LibraryViewController.swift in Sources */,
 				0201273D26BAC2EB00024C41 /* AppDelegate.swift in Sources */,
 				0201273F26BAC2EB00024C41 /* SceneDelegate.swift in Sources */,
